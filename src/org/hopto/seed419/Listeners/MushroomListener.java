@@ -53,7 +53,7 @@ public class MushroomListener implements Listener {
                 player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 1000, randomConfusion));
                 player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 1000, randomSpeed));
                 player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 1000, randomJump));
-                if (randomInt == 5) {
+                if (randomInt == 3) {
                     player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 1000, randomBlindness));
                 }
             }
